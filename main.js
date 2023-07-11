@@ -67,7 +67,7 @@ function fieldGen (numBlocchi) {
   
     for (let i = 0; i < numBlocchi; i++) {
       
-      const blocco = blockGen("blocco" + (i+1) , numBlocchi);
+      const blocco = blockGen("blocco " + (i+1) , numBlocchi);
   
       campo.push(blocco);
 

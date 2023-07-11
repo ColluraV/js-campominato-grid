@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 .quadrato{
     aspect-ratio: 1/1;
     height: auto;
@@ -9,4 +16,8 @@
 
 #principal_row{
     min-width: 550px;
+}
+
+body{
+    background-image:url(https://cdn.vectorstock.com/i/1000x1000/10/64/explosion-background-vector-591064.webp);
 }
